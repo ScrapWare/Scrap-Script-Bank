@@ -3,8 +3,6 @@
 use strict;
 use warnings;
 
-my $base = '/disk/usb/usb01/Creative';
-
 my $pngh = pack 'H*', '89504e470d0a1a0a';
 my $ihdr = pack 'H*', '0000000d49484452';
 
