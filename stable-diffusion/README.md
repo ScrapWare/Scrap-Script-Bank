@@ -1,6 +1,12 @@
+## Newest GTK+2 C version
+
+🐣sd-get-prompt
+
+https://github.com/ScrapWare/sd-get-prompt
+
 ## Utilities for Stable Diffusion
 
-Useful with .desktop launcher.
+Useful with .desktop launcher(KDE Dolphin) and add right click menu on your file manager.
 
 ### Sample of Create .desktop launcher
 
@@ -14,3 +20,5 @@ Icon=applications-graphics
 Path=  
 Terminal=false  
 StartupNotify=true  
+
+& apply KDE Dolphin service dir and good changes.
