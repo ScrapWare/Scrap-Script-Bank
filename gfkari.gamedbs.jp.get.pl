@@ -90,6 +90,11 @@ sub getton($){
     getmid($num, $1);
   }
 
+  # Standing Image
+  while($htm =~ /class=\x22tc\x20trsb\x20prf\-sw\x22\x20data\-url=\x22([^\x22]+)\x22/g){
+    store($num, $1);
+  }
+
   # Thumbnail Image
   while($htm =~ /data\-original=\x22([^\x22]+)\x22/g){
     store($num, $1);
